@@ -1,0 +1,26 @@
+.cotuer{
+    width: 80%;
+    /*width:calc (100% - 120)*/
+    margin: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.mobile{
+    display: none;
+}
+
+.show{
+    color: #000;
+}

@@ -1,0 +1,37 @@
+
+@media screen and (max-width:450px){
+    .mobile{
+        display: block;
+      
+    }
+
+ .labtop {
+        display: none;
+    }
+    
+.mobile .logo 
+{
+    
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FF9500;
+}
+
+.chech{
+    display: none;
+}
+
+.fa-solid fa-burger
+{
+    font-size: 30px;
+   transform: scale(1.5);
+}
+.show{
+    display: none;
+}
+
+#chech:checked+ .show{
+    display: block;
+
+}
+}
